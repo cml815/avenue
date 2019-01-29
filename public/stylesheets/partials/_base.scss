@@ -1,0 +1,28 @@
+@import './partials/reset';
+@import './partials/color';
+
+$font-sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-serif: 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+
+body {
+    font-size: 14px;
+    font-family: $font-sans;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-serif;
+    font-weight: 600;
+}
+
+h1 { font-size: 2.5rem; }
+
+h2 { font-size: 2.25rem; }
+
+h3 { font-size: 2rem; }
+
+h4 { font-size: 1.75rem; }
+
+h5 { font-size: 1.5rem; }
+
+h6 { font-size: 1.0rem; }
